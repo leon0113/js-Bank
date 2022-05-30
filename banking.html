@@ -28,21 +28,21 @@
                 -->
                 <div class="bg-blue-400 p-8 rounded">
                     <h3 class="text-2xl">Deposite</h3>
-                    <h4 class="text-5xl"> $00 </h4>
+                    <h4 class="text-5xl">$<span id="deposite-Amount">00</span> </h4>
                 </div>
                 <!--
                      ! Withdraw Gird div
                      -->
                 <div class="bg-red-400 p-8 rounded">
                     <h3 class="text-2xl">Withdraw</h3>
-                    <h4 class="text-5xl"> $00 </h4>
+                    <h4 id="withdraw-Amount" class="text-5xl"> $00 </h4>
                 </div>
                 <!--
                      ! Current balance Gird div
                      -->
                 <div class="bg-yellow-400 p-8 rounded">
                     <h3 class="text-2xl">Current balance</h3>
-                    <h4 class="text-5xl"> $1200 </h4>
+                    <h4 class="text-5xl"> $<span id="balance-total">1200</span> </h4>
                 </div>
             </div>
         </section>
@@ -87,6 +87,8 @@
             ? Deposite and Withdraw interaction 
         -->
     </main>
+
+    <script src="js/banking.js"></script>
 </body>
 
 </html>
